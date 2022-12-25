@@ -1,0 +1,29 @@
+
+
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+.lncrd{
+    margin: 15px;
+    border-radius: 7px;
+}
+
+.bdr{
+    border: solid 1px rgb(245, 245, 245);
+    background-color: rgba(245, 245, 245, 0.555);
+}
+
+.card{
+    transition: all .2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.hdr{
+    max-height: 60vh;
+}

@@ -24,6 +24,19 @@ body::before{
     border-radius: 1rem;
 
 }
+
+
+.card{
+    transition: all .2s;
+}
+
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 2px 2px 15px;
+}
+
+
+
 @media screen and (min-width: 768px) {
     .news-input{
         width: 50%;
