@@ -1,0 +1,31 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+
+
+
+.navbar-brand{
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+.mapouter{
+    overflow: hidden;
+    border-radius: 1rem;
+
+}
+@media screen and (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
